@@ -19,7 +19,9 @@ For each point I(x,y) you can convert them into normalized camera coordinate wit
 
 The resulting vector (u,v,1) is the direction vector of the ray in camera coordinate going from the pixel throught the camera centre to the real object. Here's the equation of the ray:
 
-![ray_Equation](https://latex.codecogs.com/svg.image?A(ut)+B(vt)+C(t)+D=0)
+![ray equation](https://latex.codecogs.com/png.latex?%5Cmathbf%7BP%7D(t)%20=%20t%20%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20u%20%5C%5C%20v%20%5C%5C%201%20%5Cend%7Bbmatrix%7D,%20%5Cquad%20t%20%5Cgeq%200)
+
+![Equation](https://latex.codecogs.com/svg.image?A(ut)+B(vt)+C(t)+D=0)
 
 ![Equation](https://latex.codecogs.com/svg.image?t=-\frac{D}{Au+Bv+C})
 
