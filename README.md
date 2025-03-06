@@ -13,18 +13,13 @@ To be able to find real 3D coordinates from an image we triangulate the points c
 
 ![image_plan](https://latex.codecogs.com/svg.image?I=%5Cbegin%7Bbmatrix%7DI%280%2C0%29%26I%281%2C0%29%26%5Chdots%26I%28W-1%2C0%29%5C%5CI%280%2C1%29%26I%281%2C1%29%26%5Chdots%26I%28W-1%2C1%29%5C%5C%5Cvdots%26%5Cvdots%26%5Cddots%26%5Cvdots%5C%5CI%280%2CH-1%29%26I%281%2CH-1%29%26%5Chdots%26I%28W-1%2CH-1%29%5Cend%7Bbmatrix%7D)
 
-![intrinsic](https://latex.codecogs.com/svg.image?K=%5Cbegin%7Bbmatrix%7Df_x%26s%26c_x%5C%5C0%26f_y%26c_y%5C%5C0%260%261%5Cend%7Bbmatrix%7D)
-
-
-
+For can convert each point I(x,y) into normalized camera coordinate with that equation:
 
 ![equation](https://latex.codecogs.com/png.latex?%5Cbegin%7Bbmatrix%7D%20u%20%5C%5C%20v%20%5C%5C%201%20%5Cend%7Bbmatrix%7D%20=%20K^{-1}%20%5Cbegin%7Bbmatrix%7D%20x%20%5C%5C%20y%20%5C%5C%201%20%5Cend%7Bbmatrix%7D)
 
+The resulting vector (u,v,1) is the direction vector of the ray in camera coordinate going from the pixel throught the camera centre to the real object. Here's the equation of the ray:
 
-
-![plane](https://latex.codecogs.com/svg.image?Ax+By+Cz+D=0)
-
-![Equation](https://latex.codecogs.com/svg.image?A(ut)+B(vt)+C(t)+D=0)
+![ray_Equation](https://latex.codecogs.com/svg.image?A(ut)+B(vt)+C(t)+D=0)
 
 ![Equation](https://latex.codecogs.com/svg.image?t=-\frac{D}{Au+Bv+C})
 
