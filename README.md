@@ -11,6 +11,8 @@ To be able to find real 3D coordinates from an image we triangulate the points c
 
 ![Equation](https://latex.codecogs.com/svg.image?I=\begin{bmatrix}I(0,0)&I(1,0)&\hdots&I(W-1,0)\\I(0,1)&I(1,1)&\hdots&I(W-1,1)\\\vdots&\vdots&\ddots&\vdots\\I(0,H-1)&I(1,H-1)&\hdots&I(W-1,H-1)\\\end{bmatrix})
 
+![Equation](https://latex.codecogs.com/svg.image?I=%5Cbegin%7Bbmatrix%7DI%280%2C0%29%26I%281%2C0%29%26%5Chdots%26I%28W-1%2C0%29%5C%5CI%280%2C1%29%26I%281%2C1%29%26%5Chdots%26I%28W-1%2C1%29%5C%5C%5Cvdots%26%5Cvdots%26%5Cddots%26%5Cvdots%5C%5CI%280%2CH-1%29%26I%281%2CH-1%29%26%5Chdots%26I%28W-1%2CH-1%29%5Cend%7Bbmatrix%7D)
+
 ## Features/Usage
 
 
