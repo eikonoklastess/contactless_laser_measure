@@ -20,6 +20,7 @@ These are obtained in the calibration portion of the software. with the Camera i
 ![image_plan](https://latex.codecogs.com/svg.image?I=%5Cbegin%7Bbmatrix%7DI%280%2C0%29%26I%281%2C0%29%26%5Chdots%26I%28W-1%2C0%29%5C%5CI%280%2C1%29%26I%281%2C1%29%26%5Chdots%26I%28W-1%2C1%29%5C%5C%5Cvdots%26%5Cvdots%26%5Cddots%26%5Cvdots%5C%5CI%280%2CH-1%29%26I%281%2CH-1%29%26%5Chdots%26I%28W-1%2CH-1%29%5Cend%7Bbmatrix%7D)
 
 For each point I(x,y) you can convert them into normalized camera coordinate with that equation:
+![equation](https://latex.codecogs.com/png.latex?%5Cbegin%7Bbmatrix%7D%20u%20%5C%5C%20v%20%5C%5C%201%20%5Cend%7Bbmatrix%7D%20=%20%5Cbegin%7Bbmatrix%7D%20%5Cfrac%7Bx%20-%20c_x%7D%7Bf_x%7D%20%5C%5C%20%5Cfrac%7By%20-%20c_y%7D%7Bf_y%7D%20%5C%5C%201%20%5Cend%7Bbmatrix%7D)
 
 ![equation](https://latex.codecogs.com/png.latex?%5Cbegin%7Bbmatrix%7D%20u%20%5C%5C%20v%20%5C%5C%201%20%5Cend%7Bbmatrix%7D%20=%20K^{-1}%20%5Cbegin%7Bbmatrix%7D%20x%20%5C%5C%20y%20%5C%5C%201%20%5Cend%7Bbmatrix%7D)
 
