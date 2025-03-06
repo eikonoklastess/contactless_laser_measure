@@ -39,8 +39,28 @@ Then solve for t:
 Then pluging back t in the ray equation will give 3D coordinate in software we then do some projection to obtain a clean 2D plane of points but that only contribute to clean visuals of the cross-sections.
 
 ## Features/Usage
-
+The program is separated in 3 parts: 
+- image calibration: plane coefficient calibration and measuring. for the image calibration you need a checkered pattern with known dimension that you'll input in the software. then you need to capture 20 images of the pattern. this will compute the camera matrix and some distortion coefficients.
+- plane coefficient calibration: because we are working with a janky setup and i cant bother to measure thing very precicely i wrote this tool that takes an estimate for the position of the plane and images of cylinders cross sections with know radii to find the exact coordinate of the plane. (this is janky and doesnt work properly once you finish the calibration you need to note the number and write them manually in the program)
+- measuring: here you have on the left a live feed of the camera and with an overlay of the detected laser points (if they arent well detected put the setup in a controlled environment until the laser is most well detected) and on the left there is the whole laser plane in real coordinate. The software can measure anything that this plane intersect.
 
 ## Installing and Running the Project
+### Installation  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/yourusername/contactless-laser-measure.git
+   cd contactless-laser-measure
+   ```
+
+2. Install dependencies:  
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+### Running the Application  
+To start the program, run:  
+   ```sh
+   python main.py
+   ```
 
 
