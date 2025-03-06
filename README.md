@@ -32,10 +32,11 @@ Now to find the real 3D coordinate all we have to do is to substitute the ray eq
 
 ![Equation](https://latex.codecogs.com/svg.image?A(ut)+B(vt)+C(t)+D=0)
 
-After we solve for t:
+Then solve for t:
 
 ![Equation](https://latex.codecogs.com/svg.image?t=-\frac{D}{Au+Bv+C})
 
+Then pluging back t in the ray equation will give 3D coordinate in software we then do some projection to obtain a clean 2D plane of points but that only contribute to clean visuals of the cross-sections.
 
 ## Features/Usage
 
