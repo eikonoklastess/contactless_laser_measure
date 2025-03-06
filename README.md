@@ -63,4 +63,8 @@ To start the program, run:
    python main.py
    ```
 
+### Setup
+you need a line laser pointing down at ~90º and a camera angle toward the intersection of the table and laser heres and example of my setup:
+![Image](https://github.com/user-attachments/assets/99cc1d39-7944-4051-baa6-9fb8efecdf35)
+
 
