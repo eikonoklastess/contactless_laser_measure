@@ -12,9 +12,10 @@ To be able to find real 3D coordinates from an image we triangulate the points c
 ![Equation](https://latex.codecogs.com/svg.image?K=%5Cbegin%7Bbmatrix%7Df_x%26s%26c_x%5C%5C0%26f_y%26c_y%5C%5C0%260%261%5Cend%7Bbmatrix%7D)
 
 ![image_plan](https://latex.codecogs.com/svg.image?I=%5Cbegin%7Bbmatrix%7DI%280%2C0%29%26I%281%2C0%29%26%5Chdots%26I%28W-1%2C0%29%5C%5CI%280%2C1%29%26I%281%2C1%29%26%5Chdots%26I%28W-1%2C1%29%5C%5C%5Cvdots%26%5Cvdots%26%5Cddots%26%5Cvdots%5C%5CI%280%2CH-1%29%26I%281%2CH-1%29%26%5Chdots%26I%28W-1%2CH-1%29%5Cend%7Bbmatrix%7D)
-[
 
-![equation](https://latex.codecogs.com/png.latex?\mathbf{uv1}%20=%20K^{-1}%20\begin{bmatrix}%20x%20\\%20y%20\\%201%20\end{bmatrix})
+
+![equation](https://latex.codecogs.com/png.latex?%5Cbegin%7Bbmatrix%7D%20u%20%5C%5C%20v%20%5C%5C%201%20%5Cend%7Bbmatrix%7D%20=%20K^{-1}%20%5Cbegin%7Bbmatrix%7D%20x%20%5C%5C%20y%20%5C%5C%201%20%5Cend%7Bbmatrix%7D)
+
 
 
 ![Equation](https://latex.codecogs.com/svg.image?Ax+By+Cz+D=0)
