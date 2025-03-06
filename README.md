@@ -27,8 +27,11 @@ The resulting vector (u,v,1) is the direction vector of the ray in camera coordi
 
 ![ray equation](https://latex.codecogs.com/png.latex?%5Cmathbf%7BP%7D(t)%20=%20t%20%5Ccdot%20%5Cbegin%7Bbmatrix%7D%20u%20%5C%5C%20v%20%5C%5C%201%20%5Cend%7Bbmatrix%7D,%20%5Cquad%20t%20%5Cgeq%200)
 
+Now to find the real 3D coordinate all we have to do is to substitute the ray equation into the plane equation:
+
 ![Equation](https://latex.codecogs.com/svg.image?A(ut)+B(vt)+C(t)+D=0)
 
+After we solve for t:
 ![Equation](https://latex.codecogs.com/svg.image?t=-\frac{D}{Au+Bv+C})
 
 
