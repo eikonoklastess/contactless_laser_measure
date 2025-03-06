@@ -13,8 +13,8 @@ To be able to find real 3D coordinates from an image we triangulate the points c
 
 ![image_plan](https://latex.codecogs.com/svg.image?I=%5Cbegin%7Bbmatrix%7DI%280%2C0%29%26I%281%2C0%29%26%5Chdots%26I%28W-1%2C0%29%5C%5CI%280%2C1%29%26I%281%2C1%29%26%5Chdots%26I%28W-1%2C1%29%5C%5C%5Cvdots%26%5Cvdots%26%5Cddots%26%5Cvdots%5C%5CI%280%2CH-1%29%26I%281%2CH-1%29%26%5Chdots%26I%28W-1%2CH-1%29%5Cend%7Bbmatrix%7D)
 
-![Equation](https://latex.codecogs.com/svg.image?%5Cbegin%7Bbmatrix%7Dx%5C%5Cy%5C%5C1%5Cend%7Bbmatrix%7D=%5Cbegin%7Bbmatrix%7D%5Cfrac%7Bu-c_x%7D%7Bf_x%7D%5C%5C%5Cfrac%7Bv-c_y%7D%7Bf_y%7D%5C%5C1%5Cend%7Bbmatrix%7D)
-![Equation](https://latex.codecogs.com/svg.image?\begin{bmatrix}x\\y\\1\end{bmatrix}=K^{-1}\begin{bmatrix}u\\v\\1\end{bmatrix})
+![equation](https://latex.codecogs.com/png.latex?\mathbf{uv1} = K^{-1} \begin{bmatrix} x \\ y \\ 1 \end{bmatrix})
+
 ![Equation](https://latex.codecogs.com/svg.image?P(t)=t\cdot\begin{bmatrix}u\\v\\1\end{bmatrix},\quad t\geq0)
 
 ![Equation](https://latex.codecogs.com/svg.image?Ax+By+Cz+D=0)
