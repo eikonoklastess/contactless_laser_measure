@@ -8,6 +8,7 @@ this tool/program aims to measure object cross-section precisely using a camera 
 
 ## Technical Details
 (* use light mode to see the equations *)
+
 To be able to find real 3D coordinates from an image we triangulate the points corresponding to the laser in the image for this we need to know the position of the camera and its intrinsic
 
 ![intrinsic](https://latex.codecogs.com/svg.image?K=%5Cbegin%7Bbmatrix%7Df_x%26s%26c_x%5C%5C0%26f_y%26c_y%5C%5C0%260%261%5Cend%7Bbmatrix%7D) 
