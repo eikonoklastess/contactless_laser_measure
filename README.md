@@ -1,4 +1,4 @@
-# Contacless Laser Measure
+# camera based laser triangulation
 
 ## Demo
 https://github.com/user-attachments/assets/e5966662-8081-4dab-9422-c60d9edcaefa
